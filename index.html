@@ -437,12 +437,14 @@ $(window).on("scroll",function () {
 	var bodyScroll = $(window).scrollTop(),
 	navbar = $(".navbar");
 
+  $('.navbar-logo img').attr('width','200px');
+
 	if(bodyScroll > 50){
-	$('.navbar-logo img').attr('src','images/parkette-logo-dark.png');
+	$('.navbar-logo img').attr('src','images/vector_logo_dark.svg');
 	navbar.addClass("nav-scroll");
 
 }else{
-	$('.navbar-logo img').attr('src','images/parkette-logo-white.png');
+	$('.navbar-logo img').attr('src','images/vector_logo_white.svg');
 	navbar.removeClass("nav-scroll");
 }
 
