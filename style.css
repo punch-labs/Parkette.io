@@ -2,6 +2,51 @@
 	padding:0;
 	margin:0;
 }
+
+/* .container {
+	max-width: 960px; /* or 950px */
+} */
+
+.parkette-device {
+	position: absolute;
+	width: 800px;
+	top: -150px;
+	left: -140px;
+}
+
+ @media all and (max-width:768px){
+	
+
+	.parkette-device {
+		width: 150%;
+		position: relative;
+		top: -70px;
+		left: -20%;
+		margin-bottom: -270px;
+	}
+
+	.banner {
+		margin-bottom: 100px;
+	}
+	
+}
+
+@media all and (max-width:730px){
+
+	.parkette-device {
+		width: 110%;
+		position: relative;
+		top: -42px;
+		left: -5%;
+		margin-bottom: -250px;
+	}
+}
+
+.parkette-logo {
+	width: 250px;
+	padding-bottom: 30px;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
@@ -99,7 +144,7 @@ h6 {
 .banner {
 	background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
-	padding:100px 0px;
+	padding:90px 0px;
 	position:relative;
 }
 .banner::before {
@@ -126,7 +171,6 @@ h6 {
 }
 .banner-text {
 	padding-right:80px;
-	margin:50px 0px 0px;
 }
 .banner-text p {
 	margin:40px 0px;

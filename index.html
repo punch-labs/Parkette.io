@@ -15,7 +15,7 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<!-- <nav class="navbar navbar-expand-lg">
   <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo.png" alt="logo" class="logo-1"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,32 +23,29 @@
         <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
-        <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li> -->
-        <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li> -->
-        <!-- <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li> -->
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 <!-- End Navbar -->
 <!-------Banner Start------->
 <section class="banner" data-scroll-index='0'>
   <div class="banner-overlay">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-sm-12">
+        <div class="col-md-6 col-sm-12">
           <div class="banner-text">
-            <h2 class="white">The cutest parking meter, like ever.</h2>
-            <h6 class="white"> A new, lightweight way for your visitors to park and pay.</h6>
-            <p class="banner-text white">Join the growing number of enterprises that have chosen to increase their revenue with our easy-to-install hardware. Order your parking kiosk and start earning today!</p>
+            <h1><img src="images/vector_logo_white.svg" alt="Parkette" class="logo-1 parkette-logo"></h1>
+            <h2 class="white">A new, lightweight way for your visitors to park and pay.</h2>
+            <!-- <p class="banner-text white">Join the growing number of enterprises that have chosen to increase their revenue with our easy-to-install hardware. Order your parking kiosk and start earning today!</p> -->
           </div>
         </div>
-        <div class="col-md-4 col-sm-12"> <img src="images/parkette-ipad.png" class="img-fluid wow fadeInUp"/> </div>
+        <div class="col-md-6 col-sm-12"> <img src="images/parkette_2.png" class="parkette-device"/> </div>
       </div>
     </div>
   </div>
-  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"></span> </section>
+  <span class="svg-wave">  </section>
 
 <!-------Banner End------->
 
@@ -84,7 +81,6 @@
               </div>
             </div>
           </div>
-          <a href="#" class="about-btn">Learn More</a> </div>
       </div>
     </div>
   </div>
@@ -123,31 +119,41 @@
           <div class="row">
             <div class="col-md-4 col-sm-12">
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                <div class="media-body text-right media-right-margin">
+                <div class="media-right icon-border media-right-margin"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
                   <h5>Tap to pay</h5>
                   <p>Our intuitive customer flow makes paying for parking as seemless as possible. Visitors can tap their phone or credit card and recieve a digital receipt for their purchase.</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+              
               </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-building" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Install anywhere</h5>
+                  <p>Hardware can be installed anywhere with an internet connection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                <div class="media-body text-right media-right-margin">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
+
+                <div class="media-body text-left media-left-margin">
                   <h5>Dynamic pricing</h5>
                   <p>Customize your parking rates at any time, or enable automatic rate changes based on changing conditions.</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
               </div>
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-body text-right media-right-margin">
+                <div class="media-right icon-border media-right-margin"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+
+                <div class="media-body text-left media-right-margin">
                   <h5>Easy relocation</h5>
                   <p>Simply pick up and move your kiosk any time, no need for a technician visit!</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
               </div>
             </div>
-            <div class="col-md-4 d-none d-md-block d-lg-block">
-              <div class="feature-mobile"> <img src="images/parkette-ipad.png" class="img-fluid wow fadeInUp"/> </div>
-            </div>
-
+            
             <div class="col-md-4 col-sm-12">
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
                 <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
@@ -161,13 +167,6 @@
                 <div class="media-body text-left">
                   <h5>Reports</h5>
                   <p>Recieve monthly breakdowns of your lot activity. Analyze your peak days and times!</p>
-                </div>
-              </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-building" aria-hidden="true"></span> </div>
-                <div class="media-body text-left">
-                  <h5>Install anywhere</h5>
-                  <p>Hardware can be installed anywhere with an internet connection.</p>
                 </div>
               </div>
           </div>
@@ -313,7 +312,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8">
-              <form id="contact_form" action="">
+              <form id="contact_form" action="https://formspree.io/f/xovqjooa" method="POST">
                 <div class="row">
                   <div class="col">
                     <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Full Name" required>
@@ -393,7 +392,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <p>2024 &copy; Punch Labs, Inc.</p>
+        <p>Parkette is made in Toronto by <a href="https://punch.to" target="_blank">Punch Labs, Inc.</a></p>
       </div>
     </div>
   </div>
